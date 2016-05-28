@@ -1,6 +1,7 @@
-import d3 from 'd3';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Path from './components/path/Path.jsx'
+import './base.scss'
 
 class Graph extends React.Component {
     render() {
@@ -9,6 +10,6 @@ class Graph extends React.Component {
 }
 
 ReactDOM.render(
-    <Graph/>,
+    <Path/>,
     document.getElementById('container')
 );
