@@ -1,0 +1,12 @@
+$chartColor: steelblue;
+$chartFont: 10px;
+#barchart-container {
+    div {
+        background: $chartColor;
+        font-size: $chartFont;
+        text-align: right;
+        padding: 3px;
+        margin: 1px;
+        color: white;
+    }
+}
